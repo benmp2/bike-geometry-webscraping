@@ -10,7 +10,7 @@ class canyon_geometry_scraper(base_scraper):
         self.comp_titles ='geometryTable__titleInner'
         self.header = 'geometryTable__headingData'
         self.size_data = 'geometryTable__sizeData'
-        self.frame_geom_image = 'detailedGeometry__img js-geometryImg'
+        self.frame_geom_image = 'detailedGeometry__img js-geometryImgSvg'
     
     def bike_frame_sizes(self):
         
